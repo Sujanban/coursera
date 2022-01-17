@@ -1,1 +1,125 @@
-ECHO is on.
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background-color: pink;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(206,205,205);
+	height: 100vh;
+	width: 100%;
+}
+.object{
+	height: 400px;
+	width: 299px;
+	/*background-color: linear-gradient(#A6ADB7, #B5B7BE);*/
+	/*background-color: rgb(170,177,184);*/
+	background-color: rgb(169,175,184);
+	border: 10px solid rgb(129,128,129);
+	box-shadow: 0 0 25px 9px rgb(129,128,129);
+	position: relative;
+	overflow: hidden;
+}
+.moon{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	box-shadow: 0 0 80px 20px #fff;
+}
+.moon-particle1{
+	height: 10px;
+	width: 10px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 50px;
+	left: 160px;
+	opacity: 0.6;
+}
+.moon-particle2{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	opacity: 0.6;
+}
+.moon-particle3{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 40px;
+	left: 29px;
+	opacity: 0.6;
+}
+.moon-particle4{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 80px;
+	left: 220px;
+	opacity: 0.6;
+}
+.moon-particle5{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	opacity: 0.6;
+}
+
+.main-mountain{
+	height: 400px;
+	width: 400px;
+	background-color: rgb(110,135,149);
+	transform: rotate(45deg);
+	position: absolute;
+	margin-top: 200px;
+	margin-left: -50px;
+}
+.front-mountain{
+	height: 400px;
+	width: 400px;
+	background-color: rgb(110,135,149);
+	transform: rotate(45deg);
+	position: absolute;
+	margin-top: 240px;
+	margin-left: -170px;
+	opacity: 0.29;
+}
+.back-mountain{
+	height: 400px;
+	width: 400px;
+	transform: rotate(65deg);
+	background-color: rgb(45,84,107);
+	position: absolute;
+	top: 220px;
+}
+.above-mountain{
+	background-color: rgb(65,52,79);
+	height: 400px;
+	width: 400px;
+	top: 300px;
+	left: -160px;
+	position: absolute;
+	transform: rotate(115deg);
+}
